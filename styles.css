@@ -110,7 +110,7 @@ nav .navitems{
     display: flex;
 }
 
-#associated{
+.associated{
     width: 200px;
     height: 120px;
 }
