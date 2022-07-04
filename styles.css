@@ -1,144 +1,39 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;  
+body{
+    background-color: rgb(199, 199, 193);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-.navbar{
-    display: flex;
-    background-color: #fff;
-    height: 10vh;
-    width: 100vw;
-    justify-content: space-around;
+main{
     align-items: center;
+    display: block;
+    justify-content: center;
 }
 
-.main{
-    background-color: rgb(250, 248, 245);;
-}
-nav .navitems{
-    justify-content: center;
+header{
     align-items: center;
-}
-
-.navfirst{
-    display: flex;
-    margin-left: 20px;
-    width: 30vw;
-}
-
-.navitems{
-    margin-left: 10px;
-}
-
-.navsecond{
-    display: flex;
-    width: 40vw;
-    justify-content: center;
-}
-
-.navthird{
-    display: flex;
-    width: 30vw;
-    justify-content: space-around;
-}
-
-.navitems .togle {
-    background-color: rgb(3, 3, 3);
-    height: 2px;
-    width: 15px;
-    margin: 3px;
-
-}
-
-.main .container{
-    display: flex;
-}
-
-.container{
-    width: 75vw;
-    margin: auto;
-    display: flex;
-}
-
-.playvideo{
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.comments{
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-}
-
-.reactions .tittle{
-    text-align: left;
-}
-
- .playvideo .reactions{
     text-align: center;
-    margin-top: 8px;
+    height: 20vh;
+    padding-top: 25px;
 }
 
-.hline{
-    margin-top: 10px;
+#img-div{
+    width: 100vw;
+    background-color: white;
 }
 
-.tittle{
-    margin-top: 9px;
+#img-div #image{
+    align-items: center;
+    background-color: white;
+    width: 80%;
+    height: 80%;
 }
 
-.reactions{
-    width: 50vw;
-    display: flex;
-    justify-content: space-between;
+.add {
+    width: 60vw;
+    text-align: left;
+    position: relative;
+    margin: auto;
 }
 
-#video {
-    height: 315px;
-    width: 50vw;
-}
-
-#videolist{
-    height: 115px;
-    width: 10vw;
-}
-
-.rightvideos .listvideo {
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-}
-
-.associated{
-    width: 200px;
-    height: 120px;
-}
-
-.usercomment{
-    margin-top: 9px;
-}
-
-.rightvideos .components{
-    display: flex;
-    justify-content: space-around;
-}
-
-.components .all{
-    background-color: gainsboro;
-    border-radius: 8px;
-    margin-top: 8px;
-    padding: 4px;
-
-}
-
-.listvideo .assoc{
-    text-align: justify;
-    box-sizing: border-box;
-    margin-left: 10px;
-    width: 130px;
-}
-
-.reactions .icon{
-    text-transform: uppercase
+.ul-add .li-add{
+    line-height: 2;
 }
